@@ -96,8 +96,7 @@ header {
   color: inherit;
 }
 
-.header-studio,
-.header-portfolio {
+.header-page.active {
   color: var(--link-color);
 }
 
