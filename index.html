@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">    
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/modal.css">
 </head>
 
 <body>
@@ -55,7 +56,14 @@
         <section class="section title title-img">
             <div class="container">
                 <h1 class="title-name">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button type="button" class="title-button">Заказать услугу</button>
+                <button data-modal-open type="button" class="title-button">Заказать услугу</button>
+            </div>
+            <div class="backdrop is-hidden"  data-modal>
+                <div class="modal">
+                    <button data-modal-close type="button" class="button-close">
+                        <img class="close" src="./images/close.jpg" alt="кнопка закрытия" width="11" height="11">
+                    </button>
+                </div>
             </div>
         </section>
 
