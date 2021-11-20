@@ -311,6 +311,7 @@ header {
 .work-img {
   display: block;
 }
+
 /*-------------------Command/Команда-------------------*/
 
 .command {
@@ -641,6 +642,7 @@ header {
   box-sizing: border-box;
   border: 1px solid #eeeeee;
   border-top: none;
+  border-bottom: none;
   background: var(--primary-fone-color);
 }
 
