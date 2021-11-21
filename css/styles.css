@@ -269,6 +269,9 @@ header {
 .item-monoblock::after {
   position: absolute;
   content: 'ДЕСТОПНЫЕ ПРИЛОЖЕНИЯ';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,6 +286,9 @@ header {
 .item-notebook::after {
   position: absolute;
   content: 'МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -297,6 +303,9 @@ header {
 .item-tablet::after {
   position: absolute;
   content: 'ДИЗАЙНЕРСКИЕ РЕШЕНИЯ';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,7 +337,7 @@ header {
 .command-item {
   padding: 30px 0px;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.19;
   text-align: center;
   background-color: var(--primary-fone-color);
 }
@@ -336,7 +345,10 @@ header {
 .command-title {
   margin-top: 0px;
   margin-bottom: 10px;
+  font-style: 400;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .command-text {
